@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intern Crowd</title>
+  <style>
+    /* CSS styling for the landing page */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-color: #f7f4f4; /* Set the background color */
+    }
+    
+    .navbar {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .navbar li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    .hero-image {
+      height: 400px;
+      background-image: url('your_image.jpg');
+      background-size: cover;
+    }
+    
+    .search-bar {
+      margin-top: 20px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    
+    .search-bar input[type="text"] {
+      width: 300px;
+      padding: 10px;
+      font-size: 16px;
+    }
+    
+    .search-bar input[type="submit"] {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+    }
+    
+    .content {
+      margin: 20px;
+      text-align: center;
+    }
+    
+    .internships-section {
+      margin-top: 50px;
+      text-align: center;
+    }
+    
+    .internship-details {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+    
+    .internship-details .internship {
+      flex: 1;
+      text-align: left;
+    }
+    
+    .internship-details .internship img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    .about-section {
+      margin-top: 50px;
+      text-align: center;
+    }
+    
+    .contact-section {
+      margin-top: 50px;
+      text-align: center;
+    }
+    
+    .contact-details {
+      margin-top: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <ul>
+      <li><a href="#about-section">About</a></li>
+      <li><a href="#internships-section">Internships</a></li>
+      <li><a href="#contact-section">Contact</a></li>
+    </ul>
+  </div>
+  <div class="content">
+    <h1>Welcome to Intern Crowd</h1>
+    <h3>Enter The World Of Coding By Enrolling In Our Internship Program Today!!</h3>
+    <p>"In every student, there is a power to change the world"</p>
+    <div> <img src="your_image.jpg" alt="Your Image"></div>  
+
+    <div class="internships-section" id="internships-section">
+      <h2>Internships</h2>
+      <div class="internship-details">
+        <div class="internship">
+          <h3>Web Development Internship</h3>
+          <p>Duration: 3 months</p>
+          <p>Description: Gain hands-on experience in web development by working on real-world projects. Learn HTML, CSS, and JavaScript while building responsive websites.</p>
+          <img class="internship-image" src="web_dev_image.jpg" alt="Web Development Internship">
+        </div>
+        <div class="internship">
+          <h3>Data Science Internship</h3>
+          <p>Duration: 6 months</p>
+          <p>Description: Dive into the world of data science and learn how to extract valuable insights from complex datasets. Develop skills in Python, machine learning, and data visualization.</p>
+          <img class="internship-image" src="data_science_image.jpg" alt="Data Science Internship">
+        </div>
+        <div class="internship">
+          <h3>Mobile App Development Internship</h3>
+          <p>Duration: 4 months</p>
+          <p>Description: Create innovative mobile applications for iOS and Android platforms. Learn app development frameworks and technologies such as Swift and Kotlin.</p>
+          <img class="internship-image" src="mobile_app_image.jpg" alt="Mobile App Development Internship">
+        </div>
+      </div>
+    </div>
+    
+    <div class="about-section" id="about-section">
+      <h2>About Us</h2>
+      <p>Intern Crowd is a leading platform that connects students and graduates with internship opportunities in the field of coding. Our mission is to empower aspiring developers and provide them with the necessary skills and experience to kickstart their careers.</p>
+    </div>
+
+    <div class="contact-section" id="contact-section">
+      <h2>Contact Us</h2>
+      <div class="contact-details">
+        <p>For any inquiries or support, please feel free to reach out to us:</p>
+        <ul>
+          <li>Email: info@interncrowd.com</li>
+          <li>Phone: +1 (123) 456-7890</li>
+          <li>Address: 123 Street, City, State, Country</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="search-bar">
+      <form>
+        <input type="text" placeholder="Search internships">
+        <input type="submit" value="Search">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
